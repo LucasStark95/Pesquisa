@@ -90,7 +90,7 @@ class Requisicao extends Thread {
 				System.out.println("Aguardando dados do arquivo");
 
 				os = new BufferedOutputStream(new FileOutputStream(
-						"/home/lucas/Documentos/TAIA/neuraltalk2/imgs/imagem.png"));
+						"/home/taia/neuraltalk2/imgs/imagem.png"));
 
 				while ((read = requisicaoDoCliente.read(buffer)) != -1) {
 
